@@ -1,3 +1,3 @@
 # random-squares
-squares with randomly generated colors and coordinates created in vanilla javascript
+a javascript mini oop project -- squares with randomly generated colors and coordinates
 
