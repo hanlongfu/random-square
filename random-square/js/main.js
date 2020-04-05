@@ -3,9 +3,8 @@
 // obtain the containerd div
 var container = document.getElementById('container');
 
-
 var array = [];
-for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 40; i++) {
   var r = Tools.getRandom(0, 255);
   var g = Tools.getRandom(0, 255);
   var b = Tools.getRandom(0, 255);
@@ -14,13 +13,12 @@ for (var i = 0; i < 10; i++) {
     backgroundColor: 'rgb(' + r + ',' + g + ',' + b + ')',
   });
 
-
   array.push(box);
 }
 
-setInterval(randomBox, 500);
+setInterval(randomBox, 100);
 
-// to avoid delay
+// to avoid timer delay
 randomBox();
 
 function randomBox() {
